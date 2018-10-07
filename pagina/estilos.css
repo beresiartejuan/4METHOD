@@ -16,3 +16,18 @@ body {
 	border-radius: 10px;
 
 }
+.Abajo {
+	position:fixed;
+   	left:0px;
+   	bottom:0px;
+   	height:23px;
+   	width:100%;
+   	background-color: white;
+   	color: black;
+}
+.Abajo a {
+	color: black;
+}
+.Abajo a:hover {
+	color: #2e86c1;
+}
