@@ -23,8 +23,8 @@ def buscarArchivo(nombre, directorio="/home"):
     for root, dir, ficheros in os.walk(directorio):
     	for fichero in ficheros:
         	if(buscar in fichero.lower()):
-            	print(root+"\\"+fichero)
-            	lista.add(str(root+"\\"+fichero))
+            	print(root+"/"+fichero)
+            	lista.add(str(root+"/"+fichero))
             	total += 1
    	print("Hay " + total + " archivos encontrados.")
    	print("Fin")
