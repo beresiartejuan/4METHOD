@@ -3,9 +3,8 @@ def EliminarEspaciosVaciosListas(lista):
 	for i in lista:
 		if i == "" or i == " ":
 			lista.pop(number)
-		
 		number += 1
-		return lista
+	return lista
 def ficheroExistente(ruta):
 	try:
 		open(ruta, "r")
