@@ -10,7 +10,7 @@ class Cesar(object):
 
     def getTraducirMensaje(opcion, mensaje, llave):
         if opcion[0] == 'd':
-        llave = -llave
+            llave = -llave
         traducir = ''
  
         for simbolo in mensaje:
