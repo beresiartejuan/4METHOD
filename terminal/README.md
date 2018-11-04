@@ -1,1 +1,1 @@
-link: https://github.com/kali-linux-sh/4METHOD/terminal
+link: https://github.com/kali-linux-sh/4METHOD
