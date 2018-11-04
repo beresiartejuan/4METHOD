@@ -1,5 +1,5 @@
 # 4METHOD
-Repositorio para linux y windows con varios programas.
+Repositorio para linux con varios programas.
 
 ## Información
 Todos los arcivos seran de codigo abierto y gratuitos.</br>
