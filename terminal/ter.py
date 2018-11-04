@@ -1,15 +1,7 @@
 #!/usr/bin/env python 
 # -*- coding: utf-8 -*-
-logo = """
-         _
-        | |
-        | |
-    _   | |
-   | |  | |
-   | |__| | <Python>
-   |______| <Terminal 0.1>
-"""
-
+logo = open("logo.txt", "r").read()
+	    
 import os, pwd, time, getpass
 try:
 	import hashlib
